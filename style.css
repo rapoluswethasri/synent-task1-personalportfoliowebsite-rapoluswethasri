@@ -289,46 +289,22 @@ section {
     }
 }
 @media (max-width: 768px) {
-    .header {
-        padding: 15px 5%;
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
     .nav-links {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 10px 0;
     }
 
-    .hero {
-        padding: 120px 5% 60px;
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .hero h1 {
-        font-size: 32px;
-    }
-
-    .hero-description {
-        font-size: 16px;
-    }
-
-.hero-buttons {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-    .primary-btn,
-    .secondary-btn {
-        width: 80%;
-        text-align: center;
-    }
-
-    .image-wrapper {
-        width: 220px;
-        height: 220px;
-    }
-
-    section {
-        padding: 60px 5%;
+    .nav-links a {
+        font-size: 14px;
     }
 }
