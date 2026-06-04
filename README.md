@@ -1,9 +1,3 @@
-Good idea 👍 A strong **README.md** makes your GitHub project look professional (very important for internships).
-
-Here is a clean, ready-to-use README for your **Task 1 Portfolio Project**:
-
----
-
 # 🚀 Personal Portfolio Website – Task 1
 
 ## 💻 About the Project
